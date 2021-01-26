@@ -1,0 +1,38 @@
+.section-notice {
+  padding-top: 50px;
+  padding-bottom: 45px;
+  background-color: $black;
+  text-align: center;
+  @media (min-width: 992px){
+      padding-top: 80px;
+      padding-bottom: 69px;
+
+    }
+
+  }
+  
+  .notice-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    @media (min-width:992px) {
+      font-size: 30px;
+      line-height: 37px;
+    }
+  }
+  
+  .notice-subtitle {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    color: #ffffff;
+    @media (min-width:992px) {
+      font-size: 21px;
+      line-height: 26px;
+    }
+  }
+  

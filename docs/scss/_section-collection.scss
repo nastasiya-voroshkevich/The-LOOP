@@ -1,0 +1,75 @@
+.section-collection {
+    padding-top: 40px;
+    background-color: $fons;
+    @media (min-width: 992px) {
+      padding-top: 60px;
+    }
+  }
+  
+  .collection {
+    display: flex;
+    flex-wrap: wrap;
+    @media (min-width: 992px) {
+      justify-content: space-between;
+    }
+    &-women,
+    &-men {
+      flex: 0 0 100%;
+      padding-bottom: 58px;
+      background-repeat: no-repeat;
+      background-size: 153px 130px;
+      background-position: 100% bottom;
+      @media (min-width: 568px) {
+        background-position: calc(100% - 60px) bottom;}
+      @media (min-width: 768px) {
+        flex: 0 0 80%;
+        background-size: 190px 171px;
+        background-position: calc(100% - 50px) bottom;}
+      @media (min-width: 992px) {
+        flex: 0 0 50%;
+       
+      }
+    }
+    &-women {
+      background-image: url(../img/Rectangle3.1.png);
+       }
+    &-men {
+        background-image: url(../img/Rectangle3.png);
+         } 
+    &-title {
+  margin-bottom: 25px;
+  font-size: 18px; 
+  font-style: normal;
+  font-weight: 500;
+ 
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #000000;
+  @media (min-width:768px) {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  @media (min-width:992px) {
+    font-size: 24px;
+    line-height: 29px;
+  }
+    }
+    &-desc {
+   margin-bottom: 25px;  
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 10px;
+  color: #000000;
+  @media (min-width:768px) {
+    font-size: 14px;
+    line-height: 15px;
+  }
+  @media (min-width:992px) {
+    font-size: 16px;
+    line-height: 20px;
+  }
+    }
+    }
+  

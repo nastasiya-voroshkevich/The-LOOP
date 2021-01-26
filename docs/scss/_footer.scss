@@ -1,0 +1,147 @@
+.footer {
+    padding-top: 73px;
+    margin: 0;
+    background-color: $black;
+    &-logo {
+      flex: 0 0 100%;
+      margin-bottom: 20px;
+      @media (min-width:992px) {
+        margin-bottom: 0px;
+        flex: 0 0 40%;
+      }
+    }
+  }
+
+  .footer-row {
+  display: flex;
+ flex-direction: column;
+ //flex-wrap: wrap;
+  padding-bottom: 20px;
+  @media (min-width: 992px) {
+    flex-direction: row;
+    padding-bottom: 80px;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
+  }
+  
+  .footer-nav {
+    display: flex;
+    flex-wrap: wrap;
+      justify-content: space-between;
+    @media (min-width: 576px) {
+      flex: 0 0 100%;
+    }
+    @media (min-width:992px) {
+      
+      flex: 0 0 60%;
+    }
+    &__wrapp {
+   
+      margin-left: 10px;
+      .icon {
+        height: 130px;
+        width: 140px;}
+    
+    }
+     }
+  
+  .footer-title {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    @media (min-width:768px){
+      font-size: 10px;
+      line-height: 12px;
+
+    }
+  
+  }
+
+  .footer-list {
+  list-style-type: none;
+  align-items: center;
+  padding-left: 0;
+  li {
+    margin-bottom: 10px;
+    @media (min-width: 992px){
+      margin-bottom: 0;
+    }
+
+  }
+  }
+
+ .footer-list__link {
+    font-style: normal;
+  font-weight: normal;
+  
+  font-size: 14px;
+  line-height: 22px;
+  color: #CBCFD4;
+  list-style-type: none;
+  text-decoration: none;
+  &:hover {
+    color: $accent;
+  }
+  @media (min-width:768px){
+  
+
+  }
+    .facebook, .inst{
+     padding-right: 14px;
+     max-width: 18px;
+     color: $accent ;
+     transition: 0.5s;
+     
+   }
+   .inst:hover {
+    color:$important;
+     }
+   .wk:hover {
+    color: #566392;
+   
+  }
+   .facebook:hover {
+     color: #4169E1;}
+     
+   .wk {
+     padding-right: 10px;
+     color: $accent ;
+     transition: 0.5s;}
+ }
+  
+  .footer-copyright {
+    background-color:$cream ;
+    padding-top: 10px;
+    padding-bottom: 5px;
+   
+  }
+.footer-wrapp{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+ @media (min-width: 992px){
+   flex-direction: row;
+ }
+    p, a {
+      display: block;
+      text-decoration: none;
+   font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+   color: $black;
+    
+     }
+    }
+  
+  
+    
+ 
